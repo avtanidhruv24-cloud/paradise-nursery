@@ -1,19 +1,15 @@
-import React from 'react';
-import { Leaf, Heart, Sprout } from 'lucide-react';
+import { Leaf } from 'lucide-react';
 
 export default function AboutUs() {
   return (
-    <section className="about-section" id="about">
-      <div className="about-image" role="img" aria-label="Sunlit indoor garden filled with lush houseplants" />
-      <div className="about-copy">
-        <span className="eyebrow">A little about us</span>
-        <h2>Good things grow <em>slowly.</em></h2>
-        <p>Paradise Nursery began with a simple belief: a little green can make any space feel more like home. We bring together thoughtful, easy-to-love plants and the know-how to help them thrive.</p>
-        <div className="values-list">
-          <div><span className="value-icon"><Leaf size={18} /></span><span><strong>Plants with purpose</strong><small>Responsibly grown, carefully chosen.</small></span></div>
-          <div><span className="value-icon"><Heart size={18} /></span><span><strong>Care made simple</strong><small>Friendly guidance for every plant parent.</small></span></div>
-          <div><span className="value-icon"><Sprout size={18} /></span><span><strong>Room to grow</strong><small>Small rituals, a little more joy.</small></span></div>
-        </div>
+    <section className="about-us-container" id="about-us">
+      <div className="about-us-image" role="img" aria-label="Green plants in a sunlit home" />
+      <div className="about-us-copy">
+        <span className="eyebrow">Rooted in care</span>
+        <h2>A little more green, a little more <em>home.</em></h2>
+        <p>Paradise Nursery is a welcoming place for plant lovers at every stage. We bring together thoughtful, healthy plants that make it easy to create a calmer, greener home.</p>
+        <p>From choosing your first leafy friend to growing a collection, we believe plant care should feel joyful and approachable. Every plant is selected with care, and every new plant parent is welcome here.</p>
+        <div className="about-note"><Leaf size={18} /><span>Grow at your own pace. We’re happy you’re here.</span></div>
       </div>
     </section>
   );

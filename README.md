@@ -1,4 +1,4 @@
-# Paradise Nursery
+# e-plantShopping — Paradise Nursery
 
 A polished plant shop built with React, Vite, Redux Toolkit, and React Redux. Browse three plant collections, add favorites to your bag, adjust quantities, and see item subtotals and the order total update instantly.
 
@@ -66,3 +66,4 @@ Replace `YOUR_USERNAME` with your GitHub username. These URLs match the seven re
 7. CartItem.jsx: `https://github.com/YOUR_USERNAME/paradise-nursery/blob/main/src/CartItem.jsx`
 
 Submit the matching link in each assignment question after the push succeeds.
+
